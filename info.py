@@ -88,9 +88,9 @@ PUBLIC_FILE_CHANNEL = environ.get('PUBLIC_FILE_CHANNEL', '') # Public Channel Us
 
 
 # Links
-GRP_LNK = environ.get('GRP_LNK', 'https://t.me/TMW_SUPPORTGROUP')
+GRP_LNK = environ.get('GRP_LNK', 'https://t.me/TMW_GROUP')
 CHNL_LNK = environ.get('CHNL_LNK', 'https://t.me/TMW_CHANNELS')
-SUPPORT_CHAT = environ.get('SUPPORT_CHAT', 'TMW_SUPPORTGROUP') # Support Chat Link Without https:// or @
+SUPPORT_CHAT = environ.get('SUPPORT_CHAT', 'TMW_GROUP') # Support Chat Link Without https:// or @
 OWNER_LNK = environ.get('OWNER_LNK', 'https://t.me/TMW_CHANNELS')
 
 # True Or False
@@ -112,7 +112,7 @@ USE_CAPTION_FILTER = bool(environ.get('USE_CAPTION_FILTER', True))
 
 
 # Token Verification Info :
-VERIFY = bool(environ.get('VERIFY', False))
+VERIFY = bool(environ.get('VERIFY', ))
 VERIFY_SHORTLINK_URL = environ.get('VERIFY_SHORTLINK_URL', '')
 VERIFY_SHORTLINK_API = environ.get('VERIFY_SHORTLINK_API', '')
 VERIFY_TUTORIAL = environ.get('VERIFY_TUTORIAL', '')
@@ -125,7 +125,7 @@ VERIFY_SND_SHORTLINK_API = environ.get('VERIFY_SND_SHORTLINK_API', '')
 
 
 # Shortlink Info
-SHORTLINK_MODE = bool(environ.get('SHORTLINK_MODE', True)) # Set True Or False
+SHORTLINK_MODE = bool(environ.get('SHORTLINK_MODE', False)) # Set True Or False
 SHORTLINK_URL = environ.get('SHORTLINK_URL', 'https://Linkspay.in')
 SHORTLINK_API = environ.get('SHORTLINK_API', '4eb4c465c67b29ff5ea7478bf729fd67671b05be')
 TUTORIAL = environ.get('TUTORIAL', 'https://t.me/tokenprocess_video/4') # How Open Shortner Link Video Link , Channel Link Where You Upload Your Video.
